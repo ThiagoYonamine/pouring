@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 4229ee9d2671c5149aafb9e5ae1d8693
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: emoticonos_poring_basicos_by_darknesskitty_0
+    21300002: emoticonos_poring_basicos_by_darknesskitty_1
+    21300004: emoticonos_poring_basicos_by_darknesskitty_2
+    21300006: emoticonos_poring_basicos_by_darknesskitty_3
+    21300008: emoticonos_poring_basicos_by_darknesskitty_4
+    21300010: emoticonos_poring_basicos_by_darknesskitty_5
+    21300012: emoticonos_poring_basicos_by_darknesskitty_6
+    21300014: emoticonos_poring_basicos_by_darknesskitty_7
+    21300016: emoticonos_poring_basicos_by_darknesskitty_8
+    21300018: emoticonos_poring_basicos_by_darknesskitty_9
+    21300020: emoticonos_poring_basicos_by_darknesskitty_10
+    21300022: emoticonos_poring_basicos_by_darknesskitty_11
+    21300024: emoticonos_poring_basicos_by_darknesskitty_12
+    21300026: emoticonos_poring_basicos_by_darknesskitty_13
+    21300028: emoticonos_poring_basicos_by_darknesskitty_14
+    21300030: emoticonos_poring_basicos_by_darknesskitty_16
+    21300032: emoticonos_poring_basicos_by_darknesskitty_17
+    21300034: emoticonos_poring_basicos_by_darknesskitty_18
+    21300036: emoticonos_poring_basicos_by_darknesskitty_19
+    21300038: emoticonos_poring_basicos_by_darknesskitty_21
+    21300040: emoticonos_poring_basicos_by_darknesskitty_24
+    21300042: emoticonos_poring_basicos_by_darknesskitty_25
+    21300044: emoticonos_poring_basicos_by_darknesskitty_26
+    21300046: emoticonos_poring_basicos_by_darknesskitty_27
+    21300048: emoticonos_poring_basicos_by_darknesskitty_28
+    21300050: emoticonos_poring_basicos_by_darknesskitty_29
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 254
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648b196c3eac19344926b13ce94b1211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 254
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492cd30ba2c0067409cef977a8472470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 254
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90ebe125c8ccea4990878980eb6424e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 254
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdd9c74c8e536444b129ff946ca1a52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 254
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c9aaba1a5a2fc4bae153e9cf984f33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 254
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe3bba4721256b4ab824463580dd3c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 254
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3909d1113dae344bb63fec5b10bdbc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 198
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1596436fac79594189a4b234bc06bad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 198
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0757cfc3568ecbb4eb25f761df4397b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 198
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90465e7d51a20634c8c06087257b7450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 198
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d501dfcb20513574fa02d3b155602f01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 198
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fbc8526393d494aa90ae23b1df822b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 198
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e5a4c07538768429b589a55a39b891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 198
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d79eaaea58de9439c1c342da47d493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 141
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f57b65bce3421f4f8d4f88f310d8474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 141
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84754b0a003eee46b6481ace925f396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_17
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 141
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507a0425019601e4ca8488cd47250d69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_18
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 141
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f4e6afac1c67242bc31bcd16e39860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 141
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e1b7ea638ea8041bdee2b9b0efcff3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_21
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 141
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1519686fcdf5bf4468d84f52a9255e0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_24
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 141
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c101e548afdc5a74c96bcdb1187cba42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 84
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbb09bf265d5c44db8aa7e2be32405d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_26
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 84
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3162f7e202e37794fbeaca499005b46a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 12
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaca94a11c7e5e498676c62eb4bace0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_28
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 12
+        width: 79
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc35366548896e42a6551a39a6211a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emoticonos_poring_basicos_by_darknesskitty_29
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 12
+        width: 79
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddb9566c6a7c0a4ebbfac0c7763fde2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5f87be7c12611ac489f187c7326cba37
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
