@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class RankingEntry : MonoBehaviour {
 
 	public GameObject rankingEntry;
@@ -23,6 +24,11 @@ public class RankingEntry : MonoBehaviour {
 		if(result.Count > 0 && refresh){
 			refreshRanking();
 		}
+
+		 
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+     		SceneManager.LoadScene("home", LoadSceneMode.Single);
+        }
 	}
 
 	void refreshRanking(){

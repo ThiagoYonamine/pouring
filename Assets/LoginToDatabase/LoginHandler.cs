@@ -28,6 +28,8 @@ public class LoginHandler : MonoBehaviour {
   private string logText = "";
     public Text emailText;
     public Text passwordText;
+
+    public Text log_info;
   protected string email = "";
   protected string password = "";
   protected string displayName = "";
@@ -40,6 +42,9 @@ public class LoginHandler : MonoBehaviour {
   // the required dependencies to use Firebase, and if not,
   // add them if possible.
   public void Start() {
+    if(PlayerPrefs.HasKey("userId")){
+			SceneManager.LoadScene("home");
+		}
     Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
       dependencyStatus = task.Result;
       if (dependencyStatus == Firebase.DependencyStatus.Available) {
@@ -164,18 +169,20 @@ public class LoginHandler : MonoBehaviour {
                 ((Firebase.Auth.AuthError)firebaseEx.ErrorCode).ToString());
             }
         DebugLog(authErrorCode + exception.ToString());
+        log_info.text = exception.ToString();
         }
     }
     else if (task.IsCompleted) {
       DebugLog(operation + " completed");
       complete = true;
+      log_info.text = "User created!!";
     }
     return complete;
   }
 
   public void CreateUserAsync() {
     DebugLog(String.Format("Attempting to create user {0}...", email));
-
+    log_info.text = "Creating user...";
     // This passes the current displayName through to HandleCreateUserAsync
     // so that it can be passed to UpdateUserProfile().  displayName will be
     // reset by AuthStateChanged() when the new user is created and signed in.
@@ -216,6 +223,7 @@ public class LoginHandler : MonoBehaviour {
   void HandleUpdateUserProfile(Task authTask) {
     if (LogTaskCompletion(authTask, "User profile")) {
       DisplayDetailedUserInfo(auth.CurrentUser, 1);
+      
     }
   }
 
@@ -235,9 +243,11 @@ public class LoginHandler : MonoBehaviour {
 	      PlayerPrefs.SetFloat("waterDay", 2000);
 	      PlayerPrefs.SetFloat("energy", 100);
 		    PlayerPrefs.SetInt("score", 0);
-        PlayerPrefs.SetFloat("health", 0);
-        PlayerPrefs.SetFloat("current_energy",0);
-        SceneManager.LoadSceneAsync("scene_02");
+        PlayerPrefs.SetFloat("health", 1500);
+        PlayerPrefs.SetFloat("current_energy", 20);
+        PlayerPrefs.SetString("lastEnergyConsume", DateTime.Now.ToString());
+        PlayerPrefs.SetString("lastWaterConsume", DateTime.Now.ToString());
+        SceneManager.LoadSceneAsync("home");
     }
   }
 

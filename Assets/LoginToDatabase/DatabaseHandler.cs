@@ -30,7 +30,7 @@ public class DatabaseHandler : MonoBehaviour {
   // When the app starts, check to make sure that we have
   // the required dependencies to use Firebase, and if not,
   // add them if possible.
-  void Start() {
+  private void Start() {
     FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
       dependencyStatus = task.Result;
       if (dependencyStatus == DependencyStatus.Available) {
@@ -48,14 +48,8 @@ public class DatabaseHandler : MonoBehaviour {
     app.SetEditorDatabaseUrl("https://pouring-223db.firebaseio.com/");
     if (app.Options.DatabaseUrl != null) app.SetEditorDatabaseUrl(app.Options.DatabaseUrl);
   }
-  // Exit if escape (or back, on mobile) is pressed.
-  void Update() {
-    if (Input.GetKeyDown(KeyCode.Escape)) {
-      Application.Quit();
-    }
-  }
 
-  public static void writeUser(User player) {
+  public void writeUser(User player) {
    player.email = PlayerPrefs.GetString("email");
    string userId  = PlayerPrefs.GetString("userId");
    string json = JsonUtility.ToJson(player);
@@ -70,7 +64,7 @@ public class DatabaseHandler : MonoBehaviour {
    
   }
 
-  public static void WriteNewScore(int score) {
+  public void WriteNewScore(int score) {
     string email = PlayerPrefs.GetString("email");
     string userId  =  PlayerPrefs.GetString("userId");
     LeaderboardEntry rank = new LeaderboardEntry(email, score);
@@ -115,7 +109,7 @@ public class DatabaseHandler : MonoBehaviour {
   }
 
   //Listener, now i'm not using this, but if i need it's done!
-  static void HandleValueChanged(object sender, ValueChangedEventArgs args) {
+   void HandleValueChanged(object sender, ValueChangedEventArgs args) {
      Debug.Log("RANKING " + args.Snapshot.ChildrenCount);
       if (args.DatabaseError != null) {
         Debug.LogError(args.DatabaseError.Message);
